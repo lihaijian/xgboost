@@ -375,5 +375,6 @@ int CLIRunTask(int argc, char *argv[]) {
 }  // namespace xgboost
 
 int main(int argc, char *argv[]) {
+  printf("hello")
   return xgboost::CLIRunTask(argc, argv);
 }
